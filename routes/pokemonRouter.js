@@ -1,5 +1,5 @@
 import express from 'express';
-import controller from '../controllers/pokemonController.js';
+import controller from '../controller/pokemonController.js';
 
 const app = express();
 
