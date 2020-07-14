@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
 
 app.use(
   cors({
-    origin: 'http://lcalhost:3000',
+    origin: 'https://pokemon-front-8081.herokuapp.com',
   })
 )
 
